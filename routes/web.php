@@ -14,7 +14,4 @@
 Route::get('/', function () {
     return view('welcome');
 });
-
-Route::post('/test', function () {
-    return view('xxx');
-});
+Route::get('home', 'HomeController@myHome');
