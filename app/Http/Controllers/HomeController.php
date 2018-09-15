@@ -3,8 +3,9 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Item;
 
-class HomeContoller extends Controller
+class HomeController extends Controller
 {
     public function __construct()
 
@@ -17,6 +18,7 @@ class HomeContoller extends Controller
     {
 
         return view('Home');
+
 
     }
 }
